@@ -6,58 +6,60 @@
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
-  <body class="container">
-    <div class="btn-wrap">
-      <div class="btn"></div>
-      <div class="btn"></div>
-      <div class="btn"></div>
-      <div class="btn"></div>
-      <div class="btn"></div>
-      <div class="btn"></div>
-      <div class="btn"></div>
-      <div class="btn"></div>
+  <body>
+    <div class="container">
+      <div class="btn-wrap">
+        <div class="btn"></div>
+        <div class="btn"></div>
+        <div class="btn"></div>
+        <div class="btn"></div>
+        <div class="btn"></div>
+        <div class="btn"></div>
+        <div class="btn"></div>
+        <div class="btn"></div>
+      </div>
+
+      <div class="geeks-for-geeks" style="text-align: center">
+        <h1>GeeksforGeeks</h1>
+        <h2>Media Query</h2>
+      </div>
+
+      <style>
+        /* Media Query for Mobile Devices */
+        @media (max-width: 480px) {
+          .geeks-for-geeks {
+            background-color: red;
+          }
+        }
+
+        /* Media Query for low resolution  Tablets, Ipads */
+        @media (min-width: 481px) and (max-width: 767px) {
+          .geeks-for-geeks {
+            background-color: yellow;
+          }
+        }
+
+        /* Media Query for Tablets Ipads portrait mode */
+        @media (min-width: 768px) and (max-width: 1024px) {
+          .geeks-for-geeks {
+            background-color: blue;
+          }
+        }
+
+        /* Media Query for Laptops and Desktops */
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          .geeks-for-geeks {
+            background-color: green;
+          }
+        }
+
+        /* Media Query for Large screens */
+        @media (min-width: 1281px) {
+          .geeks-for-geeks {
+            background-color: white;
+          }
+        }
+      </style>
     </div>
-
-    <div class="geeks-for-geeks" style="text-align: center">
-      <h1>GeeksforGeeks</h1>
-      <h2>Media Query</h2>
-    </div>
-
-    <style>
-      /* Media Query for Mobile Devices */
-      @media (max-width: 480px) {
-        .geeks-for-geeks {
-          background-color: red;
-        }
-      }
-
-      /* Media Query for low resolution  Tablets, Ipads */
-      @media (min-width: 481px) and (max-width: 767px) {
-        .geeks-for-geeks {
-          background-color: yellow;
-        }
-      }
-
-      /* Media Query for Tablets Ipads portrait mode */
-      @media (min-width: 768px) and (max-width: 1024px) {
-        .geeks-for-geeks {
-          background-color: blue;
-        }
-      }
-
-      /* Media Query for Laptops and Desktops */
-      @media (min-width: 1025px) and (max-width: 1280px) {
-        .geeks-for-geeks {
-          background-color: green;
-        }
-      }
-
-      /* Media Query for Large screens */
-      @media (min-width: 1281px) {
-        .geeks-for-geeks {
-          background-color: white;
-        }
-      }
-    </style>
   </body>
 </html>
